@@ -54,7 +54,7 @@ for(var i=0; i<arrD_B.length; i ++){
 console.log(answer_d)
 //第五题答案
 var answer_e = [document.getElementById("e").innerText]
-
+// 验证答案的方法
 function verifier(titleNumber, answer, mark){
   var correctAnswer = {}
   var score = 0
