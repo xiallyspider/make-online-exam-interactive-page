@@ -2,7 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>第一阶段大作业</title>
+		<title>第一阶段大作业</title>
+		
   </head>
   <body style="width:600px;height:100%;margin:1px auto">
     <div class="header">
@@ -21,70 +22,75 @@
       </div>
     </div>
     <div class="content" >
-      <div>
-		<div>
-			<h3>一、填空题（每空5分，共20分）</h3>
+			<!--一-->
 			<div>
-				<ol>
-					<li>UML的中文全称是：</li><input></input>
-					<li>对象最突出的特征是：</li><input> </input><input> </input><input> </input>
-				</ol>
+				<h3>一、填空题（每空5分，共20分）</h3>
+				<div>
+					<ol>
+						<li>UML的中文全称是：</li><input id="a_a"></input>
+						<li>对象最突出的特征是：</li><input id="a_b_1"> </input><input id="a_b_2"> </input><input id="a_b_3"> </input>
+					</ol>
+				</div>
 			</div>
-		</div>
-		<div>
-			<h3>二、选择题（每题10分，共20分）</h3>
+			<!--二-->
 			<div>
-				<ol>
-					<li>UML与软件工程的关系是：<br/>
-						<input type="radio" name="b_a" id="b_a_a">(A)UML就是软件工程</input><br/>
-						<input type="radio" name="b_a" id="b_a_b">(B)UML参与到软件工程中软件开发过程的几个阶段</input><br/>
-						<input type="radio" name="b_a" id="b_a_c">(C)UML与软件工程无关</input><br/>
-						<input type="radio" name="b_a" id="b_a_d">(D)UML是软件工程的一部分</input><br/>
-					</li>
-					<li>Java语言支持：<br/>
-						<input type="radio" name="b_b" id="b_b_a">(A)单继承</input><br/>
-						<input type="radio" name="b_b" id="b_b_b">(B)多继承</input><br/>
-						<input type="radio" name="b_b" id="b_b_c">(C)单继承和多继承都支持</input><br/>
-						<input type="radio" name="b_b" id="b_b_d">(D)单继承和多继承都不支持</input><br/>
-					</li>
-				</ol>
+				<h3>二、选择题（每题10分，共20分）</h3>
+				<div>
+					<ol>
+						<li>UML与软件工程的关系是：<br/>
+							<input type="radio" name="b_a" value="A" id="b_a_a">(A)UML就是软件工程</input><br/>
+							<input type="radio" name="b_a" value="B" id="b_a_b">(B)UML参与到软件工程中软件开发过程的几个阶段</input><br/>
+							<input type="radio" name="b_a" value="C" id="b_a_c">(C)UML与软件工程无关</input><br/>
+							<input type="radio" name="b_a" value="D" id="b_a_d">(D)UML是软件工程的一部分</input><br/>
+						</li>
+						<li>Java语言支持：<br/>
+							<input type="radio" name="b_b" value="A" id="b_b_a">(A)单继承</input><br/>
+							<input type="radio" name="b_b" value="B" id="b_b_b">(B)多继承</input><br/>
+							<input type="radio" name="b_b" value="C" id="b_b_c">(C)单继承和多继承都支持</input><br/>
+							<input type="radio" name="b_b" value="D" id="b_b_d">(D)单继承和多继承都不支持</input><br/>
+						</li>
+					</ol>
+				</div>
 			</div>
+			<!--三-->
 			<div>
 				<h3>三、多选题（每题10分，共20分）</h3>
 				<div>
 					<ol>
 						<li>用例的粒度分为以下哪三种：<br/>
-							<input type="checkbox" id="c_a_a">(A)概述级</input><br/>
-							<input type="checkbox" id="c_a_b">(B)需求级</input><br/>
-							<input type="checkbox" id="c_a_c">(C)用户目标级</input><br/>
-							<input type="checkbox" id="c_a_d">(D)子功能级</input><br/>
+							<input type="checkbox" name = "c_a" value="A" id="c_a_a">(A)概述级</input><br/>
+							<input type="checkbox" name = "c_a" value="B" id="c_a_b">(B)需求级</input><br/>
+							<input type="checkbox" name = "c_a" value="C" id="c_a_c">(C)用户目标级</input><br/>
+							<input type="checkbox" name = "c_a" value="D" id="c_a_d">(D)子功能级</input><br/>
 						</li>
 						<li>类图由以下哪三部分组成：<br/>
-							<input type="checkbox" id="c_b_a">(A)名称(Name)</input><br/>
-							<input type="checkbox" id="c_b_b">(B)属性(Attribute)</input><br/>
-							<input type="checkbox" id="c_b_c">(C)操作(Operation)</input><br/>
-							<input type="checkbox" id="c_b_d">(D)方法(Function)</input><br/>
+							<input type="checkbox" name = "c_b" value="A" id="c_b_a">(A)名称(Name)</input><br/>
+							<input type="checkbox" name = "c_b" value="B" id="c_b_b">(B)属性(Attribute)</input><br/>
+							<input type="checkbox" name = "c_b" value="C" id="c_b_c">(C)操作(Operation)</input><br/>
+							<input type="checkbox" name = "c_b" value="D" id="c_b_d">(D)方法(Function)</input><br/>
 						</li>
 					</ol>
 				</div>
 			</div>
+			<!--四-->
 			<div>
 				<h3>四、判断题（每题10分，共20分）</h3>
 				<div>
-					<span>1.用例图只是用于和客户交流和沟通的，用于确定需求。</span><input type="radio" name="d_a"></input>√<input type="radio" name="d_a"></input>×<br/>
-					<span>2.在状态图中，终止状态在一个状态图中允许有任意多个。</span><input type="radio" name="d_b"></input>√<input type="radio" name="d_b"></input>×
-					
+					<span>1.用例图只是用于和客户交流和沟通的，用于确定需求。</span><input type="radio" name="d_a" value="yes">√</input> <input type="radio" name="d_a" value="no">×</input><br/>
+					<span>2.在状态图中，终止状态在一个状态图中允许有任意多个。</span><input type="radio" name="d_b" value="yes">√</input> <input type="radio" name="d_b" value="no">×</input>
 				</div>
 			</div>
+			<!--五-->
 			<div>
 				<h3>五、简答题（每题20分，共20分）</h3>
 				<div>
 					<span>1.简述什么是模型以及模型的表现形式？</span><br/>
-					<input type="textarea" style="width:600px;height:120px"></input>
+					<input type="textarea" id="e" style="width:600px;height:120px"></input>
 				</div>
 			</div>
 		</div>
-      </div>
-    </div>
-  </body>
+		<!--计算总分-->
+		<button id="culScore" style="margin: 20px 0px;background-color: #0278AE;" onclick="countScore();">计算总分</button>
+	</body>
+	<script src="./main.js"></script>
 </html>
